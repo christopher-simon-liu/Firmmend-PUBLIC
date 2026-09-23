@@ -1,0 +1,8 @@
+{
+  "firmware_name": "PLC",
+  "chip_part": "STM32F429ZI",
+  "flash_start": 134217728,
+  "flash_size": 2097152,
+  "data_start": 134217728,
+  "data_end": 134242580
+}

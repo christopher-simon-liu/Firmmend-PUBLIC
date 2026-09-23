@@ -1,0 +1,31 @@
+Firmware Name,Architecture,MCU,OS/Sys lib.,ELF file size (KB),BIN file size (KB),Source
+CNC,ARM Cortex-M4 32bit,STM32F429ZI,Bare Metal,287,50,https://github.com/mbocaneg/Inverted-Pendulum-Robot
+Drone,ARM Cortex-M3 32bit,STM32F103RB,Bare Metal,425,30,https://github.com/heethesh/eYSIP-2017_Control_and_Algorithms_development_for_Quadcopter
+Heat_Press,ARM Cortex-M3 32bit,SAM3X8E,Arduino,248,25,https://github.com/CONTROLLINO-PLC/CONTROLLINO_Library
+Reflow_Oven,ARM Cortex-M3 32bit,STM32F103RB,Arduino,820,31,https://github.com/rocketscream/Reflow-Oven-Controller
+Soldering_Iron,ARM Cortex-M3 32bit,STM32F103RB,FreeRTOS,491,66,https://github.com/Ralim/ts100
+Console,ARM Cortex-M4 32bit,MK64FN1M0VLL12,RIOT,1132,30,https://github.com/RIOT-OS/RIOT/tree/master/examples/default
+Gateway,ARM Cortex-M3 32bit,STM32F103RB,Arduino,917,44,https://github.com/firmata/arduino
+PLC,ARM Cortex-M4 32bit,STM32F429ZI,Arduino,774,25,https://github.com/CONTROLLINO-PLC/CONTROLLINO_Library
+Robot,ARM Cortex-M3 32bit,STM32F103RB,Bare Metal,960,42,https://github.com/mbocaneg/Inverted-Pendulum-Robot
+Steering_Control,ARM Cortex-M3 32bit,SAM3X8E,Arduino,276,25,https://github.com/jabelone/car-controller
+
+6LoWPAN_Receiver, ARM Cortex-M0+ 32bit, SAMR21, Contiki, 2300, 72, https://www.usenix.org/system/files/sec20-clements.pdf
+6LoWPAN_Sender, ARM Cortex-M0+ 32bit, SAMR21, Contiki, 2300, 72, https://www.usenix.org/system/files/sec20-clements.pdf
+LiteOS_IoT, ARM Cortex-M4 32bit, STM32L431, LiteOS, 1100, 32, https://www.huawei.com/minisite/liteos/cn/index.html
+RF_Door_Lock, ARM Cortex-M3 32bit, MAX32600, Mbed, 404, 40, https://www.usenix.org/system/files/raid2019-gustafson.pdf
+Thermostat, ARM Cortex-M3 32bit, MAX32600, Mbed, 500, 56, https://www.usenix.org/system/files/raid2019-gustafson.pdf
+uEmu.3Dprinter, ARM Cortex-M3 32bit, STM32F103RE, Arduino, 5100, 92, https://marlinfw.org/
+uEmu.GPSTracker, ARM Cortex-M3 32bit, SAM3X/A, Arduino, 368, 48, https://github.com/geolink/opentracker
+utasker_MODBUS, ARM Cortex-M4 32bit, STM32F429ZIT6U, utasker, 480, 40, https://www.utasker.com/modbus.html
+utasker_USB, ARM Cortex-M4 32bit, STM32F429ZIT6U, utasker, 452, 40, https://www.utasker.com/docs/uTasker/uTaskerV1.3_USB_Demo.PDF
+XML_Parser, ARM Cortex-M3 32bit, STM32L152XE, Mbed, 772, 96, https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-4_Muench_paper.pdf
+Zepyhr_SocketCan, ARM Cortex-M4 32bit, STM32L432KC, Zephyr, 1700, 80, https://docs.zephyrproject.org/latest/samples/net/sockets/can/README.html
+
+
+
+
+
+
+
+

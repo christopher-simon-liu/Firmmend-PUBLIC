@@ -1,0 +1,6 @@
+mode,case_count,angr_case_count,angr_disassembly_success_percent,ghidra_case_count,ghidra_disassembly_success_percent
+address_bit_freeze,10,10,100,10,80
+bit_flip,10,10,100,10,100
+partial_dump,10,10,100,10,100
+partial_erase,10,10,70,10,40
+partial_write,10,10,100,10,100

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1650" viewBox="0 0 2600 1650">
+<rect x="0" y="0" width="2600" height="1650" fill="#ffffff" />
+<rect x="70.0" y="120.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="78.00" y="142.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">BasicBlock Retention</text>
+<line x1="188.00" y1="198.00" x2="188.00" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="683.00" x2="1211.00" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="443.75" y1="198.00" x2="443.75" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="561.75" x2="1211.00" y2="561.75" stroke="#ededed" stroke-width="1" />
+<line x1="699.50" y1="198.00" x2="699.50" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="440.50" x2="1211.00" y2="440.50" stroke="#ededed" stroke-width="1" />
+<line x1="955.25" y1="198.00" x2="955.25" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="319.25" x2="1211.00" y2="319.25" stroke="#ededed" stroke-width="1" />
+<line x1="1211.00" y1="198.00" x2="1211.00" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="198.00" x2="1211.00" y2="198.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="198.00" x2="188.00" y2="683.00" stroke="#666666" stroke-width="2" />
+<line x1="188.00" y1="683.00" x2="1211.00" y2="683.00" stroke="#666666" stroke-width="2" />
+<polyline points="188.00,198.00 198.23,198.00 290.30,198.00 1211.00,198.00" fill="none" stroke="#00ff00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="198.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="198.23" cy="198.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="198.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="198.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<polyline points="188.00,198.00 198.23,202.01 290.30,379.79 1211.00,657.29" fill="none" stroke="#ff0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="198.00" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="198.23" cy="202.01" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="379.79" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="657.29" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<polyline points="188.00,198.00 198.23,205.28 290.30,417.66 1211.00,683.00" fill="none" stroke="#0000FF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="198.00" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="198.23" cy="205.28" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="417.66" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="683.00" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<line x1="811.00" y1="222.00" x2="839.00" y2="222.00" stroke="#00ff00" stroke-width="3" />
+<text x="851.00" y="230.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">Oracle Donor</text>
+<line x1="811.00" y1="312.00" x2="839.00" y2="312.00" stroke="#ff0000" stroke-width="3" />
+<text x="851.00" y="320.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">No Repair</text>
+<line x1="811.00" y1="402.00" x2="839.00" y2="402.00" stroke="#0000FF" stroke-width="3" />
+<text x="851.00" y="410.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">E0 Baseline</text>
+<text x="188.00" y="739.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="699.50" y="739.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="1211.00" y="739.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="166.00" y="689.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.14</text>
+<text x="166.00" y="446.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.57</text>
+<text x="166.00" y="204.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.00</text>
+<text x="699.50" y="785.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+<rect x="1335.0" y="120.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="1343.00" y="142.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">BasicBlock Ratio</text>
+<line x1="1453.00" y1="198.00" x2="1453.00" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="683.00" x2="2476.00" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="1708.75" y1="198.00" x2="1708.75" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="561.75" x2="2476.00" y2="561.75" stroke="#ededed" stroke-width="1" />
+<line x1="1964.50" y1="198.00" x2="1964.50" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="440.50" x2="2476.00" y2="440.50" stroke="#ededed" stroke-width="1" />
+<line x1="2220.25" y1="198.00" x2="2220.25" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="319.25" x2="2476.00" y2="319.25" stroke="#ededed" stroke-width="1" />
+<line x1="2476.00" y1="198.00" x2="2476.00" y2="683.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="198.00" x2="2476.00" y2="198.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="198.00" x2="1453.00" y2="683.00" stroke="#666666" stroke-width="2" />
+<line x1="1453.00" y1="683.00" x2="2476.00" y2="683.00" stroke="#666666" stroke-width="2" />
+<polyline points="1453.00,201.50 1463.23,201.50 1555.30,201.50 2476.00,201.50" fill="none" stroke="#00ff00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="201.50" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="1463.23" cy="201.50" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="201.50" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="201.50" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<polyline points="1453.00,201.50 1463.23,198.00 1555.30,387.16 2476.00,683.00" fill="none" stroke="#ff0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="201.50" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="1463.23" cy="198.00" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="387.16" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="683.00" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<polyline points="1453.00,201.50 1463.23,199.32 1555.30,411.67 2476.00,671.02" fill="none" stroke="#0000FF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="201.50" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="1463.23" cy="199.32" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="411.67" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="671.02" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<line x1="2076.00" y1="222.00" x2="2104.00" y2="222.00" stroke="#00ff00" stroke-width="3" />
+<text x="2116.00" y="230.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">Oracle Donor</text>
+<line x1="2076.00" y1="312.00" x2="2104.00" y2="312.00" stroke="#ff0000" stroke-width="3" />
+<text x="2116.00" y="320.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">No Repair</text>
+<line x1="2076.00" y1="402.00" x2="2104.00" y2="402.00" stroke="#0000FF" stroke-width="3" />
+<text x="2116.00" y="410.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">E0 Baseline</text>
+<text x="1453.00" y="739.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="1964.50" y="739.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="2476.00" y="739.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="1431.00" y="689.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.26</text>
+<text x="1431.00" y="446.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.64</text>
+<text x="1431.00" y="204.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.01</text>
+<text x="1964.50" y="785.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+<rect x="70.0" y="885.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="78.00" y="907.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">Function Retention</text>
+<line x1="188.00" y1="963.00" x2="188.00" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1448.00" x2="1211.00" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="443.75" y1="963.00" x2="443.75" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1326.75" x2="1211.00" y2="1326.75" stroke="#ededed" stroke-width="1" />
+<line x1="699.50" y1="963.00" x2="699.50" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1205.50" x2="1211.00" y2="1205.50" stroke="#ededed" stroke-width="1" />
+<line x1="955.25" y1="963.00" x2="955.25" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1084.25" x2="1211.00" y2="1084.25" stroke="#ededed" stroke-width="1" />
+<line x1="1211.00" y1="963.00" x2="1211.00" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="963.00" x2="1211.00" y2="963.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="963.00" x2="188.00" y2="1448.00" stroke="#666666" stroke-width="2" />
+<line x1="188.00" y1="1448.00" x2="1211.00" y2="1448.00" stroke="#666666" stroke-width="2" />
+<polyline points="188.00,963.00 198.23,963.00 290.30,963.00 1211.00,963.00" fill="none" stroke="#00ff00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="963.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="198.23" cy="963.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="963.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="963.00" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<polyline points="188.00,963.00 198.23,968.77 290.30,1169.21 1211.00,1435.50" fill="none" stroke="#ff0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="963.00" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="198.23" cy="968.77" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="1169.21" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="1435.50" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<polyline points="188.00,963.00 198.23,970.69 290.30,1219.68 1211.00,1448.00" fill="none" stroke="#0000FF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="963.00" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="198.23" cy="970.69" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="1219.68" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="1448.00" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<line x1="811.00" y1="987.00" x2="839.00" y2="987.00" stroke="#00ff00" stroke-width="3" />
+<text x="851.00" y="995.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">Oracle Donor</text>
+<line x1="811.00" y1="1077.00" x2="839.00" y2="1077.00" stroke="#ff0000" stroke-width="3" />
+<text x="851.00" y="1085.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">No Repair</text>
+<line x1="811.00" y1="1167.00" x2="839.00" y2="1167.00" stroke="#0000FF" stroke-width="3" />
+<text x="851.00" y="1175.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">E0 Baseline</text>
+<text x="188.00" y="1504.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="699.50" y="1504.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="1211.00" y="1504.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="166.00" y="1454.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.20</text>
+<text x="166.00" y="1211.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.60</text>
+<text x="166.00" y="969.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.00</text>
+<text x="699.50" y="1550.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+<rect x="1335.0" y="885.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="1343.00" y="907.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">Function Ratio</text>
+<line x1="1453.00" y1="963.00" x2="1453.00" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1448.00" x2="2476.00" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="1708.75" y1="963.00" x2="1708.75" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1326.75" x2="2476.00" y2="1326.75" stroke="#ededed" stroke-width="1" />
+<line x1="1964.50" y1="963.00" x2="1964.50" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1205.50" x2="2476.00" y2="1205.50" stroke="#ededed" stroke-width="1" />
+<line x1="2220.25" y1="963.00" x2="2220.25" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1084.25" x2="2476.00" y2="1084.25" stroke="#ededed" stroke-width="1" />
+<line x1="2476.00" y1="963.00" x2="2476.00" y2="1448.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="963.00" x2="2476.00" y2="963.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="963.00" x2="1453.00" y2="1448.00" stroke="#666666" stroke-width="2" />
+<line x1="1453.00" y1="1448.00" x2="2476.00" y2="1448.00" stroke="#666666" stroke-width="2" />
+<polyline points="1453.00,1004.09 1463.23,1004.09 1555.30,1004.09 2476.00,1004.09" fill="none" stroke="#00ff00" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="1004.09" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="1463.23" cy="1004.09" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="1004.09" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="1004.09" r="4" fill="#00ff00" stroke="#ffffff" stroke-width="1" />
+<polyline points="1453.00,1004.09 1463.23,983.21 1555.30,1100.42 2476.00,1448.00" fill="none" stroke="#ff0000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="1004.09" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="1463.23" cy="983.21" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="1100.42" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="1448.00" r="4" fill="#ff0000" stroke="#ffffff" stroke-width="1" />
+<polyline points="1453.00,1004.09 1463.23,963.00 1555.30,1153.63 2476.00,1356.39" fill="none" stroke="#0000FF" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="1004.09" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="1463.23" cy="963.00" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="1153.63" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="1356.39" r="4" fill="#0000FF" stroke="#ffffff" stroke-width="1" />
+<line x1="2076.00" y1="987.00" x2="2104.00" y2="987.00" stroke="#00ff00" stroke-width="3" />
+<text x="2116.00" y="995.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">Oracle Donor</text>
+<line x1="2076.00" y1="1077.00" x2="2104.00" y2="1077.00" stroke="#ff0000" stroke-width="3" />
+<text x="2116.00" y="1085.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">No Repair</text>
+<line x1="2076.00" y1="1167.00" x2="2104.00" y2="1167.00" stroke="#0000FF" stroke-width="3" />
+<text x="2116.00" y="1175.00" font-family="Arial, sans-serif" font-size="54.00" text-anchor="start" fill="#555555" font-weight="normal">E0 Baseline</text>
+<text x="1453.00" y="1504.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="1964.50" y="1504.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="2476.00" y="1504.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.01</text>
+<text x="1431.00" y="1454.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.48</text>
+<text x="1431.00" y="1211.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.76</text>
+<text x="1431.00" y="969.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.05</text>
+<text x="1964.50" y="1550.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+</svg>

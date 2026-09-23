@@ -1,0 +1,8 @@
+{
+  "firmware_name": "HAL.atmel_6lowpan_udp_rx",
+  "chip_part": "SAMR21",
+  "flash_start": 0,
+  "flash_size": 262144,
+  "data_start": 0,
+  "data_end": 70704
+}

@@ -1,0 +1,27 @@
+# Dynamic-analysis image for FirmCorr, built on top of the upstream Fuzzware image.
+#
+# The base image `fuzzware:latest` is produced by the upstream project's build_docker.sh
+# (see scripts/build_fuzzware.sh which builds it automatically if it is missing).
+# This Dockerfile only layers the FirmCorr dynamic-analysis entrypoint and summary script
+# on top, mirroring the static Dockerfile.angr / Dockerfile.ghidra setup.
+FROM fuzzware:latest
+
+USER root
+
+# pycparser >= 2.22 made the lexer's `filename` attribute read-only, breaking angr's
+# CFFI monkey-patch in sim_type.py (AttributeError: can't set attribute 'filename').
+# Pin to the last compatible release inside the modeling virtualenv.
+RUN /home/user/.virtualenvs/fuzzware-modeling/bin/pip install --quiet "pycparser==2.21"
+
+COPY src/measurement/dynamic/fuzzware_summary.py /home/user/fuzzware_summary.py
+COPY src/measurement/dynamic/fuzzware_entrypoint.sh /home/user/fuzzware_entrypoint.sh
+
+RUN chmod +x /home/user/fuzzware_entrypoint.sh && \
+    chown user:user /home/user/fuzzware_summary.py /home/user/fuzzware_entrypoint.sh
+
+USER user:user
+WORKDIR /home/user
+
+# fixuid (provided by the base image) remaps the in-container user to the uid/gid of the
+# bind-mounted workspace so that result files written to /workspace are owned correctly.
+ENTRYPOINT ["fixuid", "-q", "/home/user/fuzzware_entrypoint.sh"]

@@ -1,0 +1,17 @@
+Firmware Name,Architecture,MCU,OS/Sys lib., Source
+Pluto_1_2_Magis_2_0, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/DronaAviation/Magis/releases/download/v2.0.1/Pluto_1_2_Magis_2_0.hex
+PlutoX_Magis_2_0_0, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/DronaAviation/Magis/releases/download/v2.0.1/PlutoX_Magis_2_0_0.hex
+PlutoX_Magis_Hybrid_2_0_0, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/DronaAviation/Magis/releases/download/v2.0.1/PlutoX_Magis_Hybrid_2_0_0.hex
+PlutoX_Magis_Ranging_2_0_0, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/DronaAviation/Magis/releases/download/v2.0.1/PlutoX_Magis_Ranging_2_0_0.hex
+PlutoX_Magis_Rover_2_0_0, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/DronaAviation/Magis/releases/download/v2.0.1/PlutoX_Magis_Rover_2_0_0.hex
+Cleanflight_2.5.0_ALIENFLIGHTF1, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/cleanflight/cleanflight/releases/download/CLFL_v2.5.0/cleanflight_2.5.0_ALIENFLIGHTF1.hex
+Cleanflight_2.5.0_CC3D, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/cleanflight/cleanflight/releases/download/CLFL_v2.5.0/cleanflight_2.5.0_CC3D.hex
+Cleanflight_2.5.0_CJMCU, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/cleanflight/cleanflight/releases/download/CLFL_v2.5.0/cleanflight_2.5.0_CJMCU.hex
+Cleanflight_2.5.0_MICROSCISKY, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/cleanflight/cleanflight/releases/download/CLFL_v2.5.0/cleanflight_2.5.0_MICROSCISKY.hex
+Cleanflight_2.5.0_NAZE, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/cleanflight/cleanflight/releases/download/CLFL_v2.5.0/cleanflight_2.5.0_NAZE.hex
+Betaflight_3.1.3_AFROMINI, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/betaflight/betaflight/releases/download/v3.1.3/betaflight_3.1.3_AFROMINI.hex
+Betaflight_3.1.3_ALIENFLIGHTF1, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/betaflight/betaflight/releases/download/v3.1.3/betaflight_3.1.3_ALIENFLIGHTF1.hex
+Betaflight_3.1.3_BEEBRAIN, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/betaflight/betaflight/releases/download/v3.1.3/betaflight_3.1.3_BEEBRAIN.hex
+Betaflight_3.1.3_CC3D, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/betaflight/betaflight/releases/download/v3.1.3/betaflight_3.1.3_CC3D.hex
+Betaflight_3.1.3_MICROSCISKY, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/betaflight/betaflight/releases/download/v3.1.3/betaflight_3.1.3_MICROSCISKY.hex
+Betaflight_3.1.3_NAZE, ARM Cortex-M3 32bit, STM32F103RB, Bare Metal, https://github.com/betaflight/betaflight/releases/download/v3.1.3/betaflight_3.1.3_NAZE.hex

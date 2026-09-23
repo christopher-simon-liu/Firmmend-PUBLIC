@@ -1,0 +1,48 @@
+# https://blog.devops.dev/building-and-installing-graphviz-and-doxygen-in-docker-a-step-by-step-guide-d63c7579c149
+# Build Graphviz on the same distro as runtime to avoid GLIBC version mismatches.
+FROM python:3.8 AS builder
+ARG GRAPHVIZ_VERSION=12.2.1
+RUN apt-get update && \
+    apt-get install -y wget tar build-essential cmake libexpat1-dev libicu-dev zlib1g-dev bison flex python3 && \
+    rm -rf /var/lib/apt/lists/*
+RUN wget --no-check-certificate -O graphviz.tar.gz "https://gitlab.com/graphviz/graphviz/-/archive/${GRAPHVIZ_VERSION}/graphviz-${GRAPHVIZ_VERSION}.tar.gz" && \
+    tar -xzf graphviz.tar.gz && \
+    cd graphviz-${GRAPHVIZ_VERSION} && \
+    mkdir build && cd build && \
+    cmake .. -DCMAKE_INSTALL_PREFIX=/usr/local/ && \
+    make -j$(nproc) && \
+    make install && \
+    cd ../.. && \
+    rm -rf graphviz-${GRAPHVIZ_VERSION} graphviz.tar.gz
+
+# Use Python 3.8 as the runtime base
+FROM python:3.8
+# Set the working directory inside the container
+WORKDIR /app
+# Copy the requirements file to the container
+COPY requirements.txt ./
+# Install dependencies without caching to reduce image size
+RUN pip install --no-cache-dir -r requirements.txt
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends build-essential pkg-config libexpat1 libicu-dev zlib1g && \
+    rm -rf /var/lib/apt/lists/*
+COPY --from=builder /usr/local/ /usr/local/
+ARG GRAPHVIZ_VERSION=12.2.1
+ENV GRAPHVIZ_VERSION=${GRAPHVIZ_VERSION} \
+    PATH="/usr/local/bin:${PATH}" \
+    PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:${PKG_CONFIG_PATH}" \
+    CFLAGS="-I/usr/local/include/graphviz" \
+    LDFLAGS="-L/usr/local/lib" \
+    LD_LIBRARY_PATH="/usr/local/lib:${LD_LIBRARY_PATH}"
+RUN ldconfig && \
+    pip install --no-cache-dir --no-binary=:all: pygraphviz && \
+    python -c "import pygraphviz; print(pygraphviz.__version__)"
+RUN dot -V
+# Set the default command.
+
+COPY src/measurement/static/angr_script_acfg_disasm.py /app/angr_script_acfg_disasm.py
+COPY src/measurement/static/angr_entrypoint.sh /app/angr_entrypoint.sh
+
+RUN chmod +x /app/angr_entrypoint.sh
+
+ENTRYPOINT ["/app/angr_entrypoint.sh"]

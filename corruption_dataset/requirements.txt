@@ -1,0 +1,14 @@
+angr==9.2.63
+cle==9.2.63
+joblib==1.3.2
+networkx==2.5
+pyvex==9.2.63
+scikit-learn==1.3.0
+capstone==5.0.3
+pandas==1.2.4
+matplotlib
+intelhex
+pyelftools
+numpy
+pillow
+cairosvg

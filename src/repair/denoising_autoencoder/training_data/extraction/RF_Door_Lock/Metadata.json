@@ -1,0 +1,8 @@
+{
+  "firmware_name": "Pretender.max32_rf_door_lock",
+  "chip_part": "MAX32600",
+  "flash_start": 134217728,
+  "flash_size": 262144,
+  "data_start": 134217728,
+  "data_end": 134257660
+}

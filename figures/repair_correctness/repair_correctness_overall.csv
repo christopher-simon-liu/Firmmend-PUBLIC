@@ -1,0 +1,7 @@
+method_name,total_corrupted_bytes,matching_mend_bytes,repair_correctness_ratio
+autoencoder_fill,3224835,95859,0.029725241756554988
+local_fill,3224835,26855,0.008327557844044734
+no_repair,3224835,0,0.0
+nop_fill,3224835,176793,0.054822339747614995
+oracle_donor,3224835,3224835,1.0
+zero_fill,3224835,371108,0.11507813578059033

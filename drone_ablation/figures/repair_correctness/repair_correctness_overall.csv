@@ -1,0 +1,7 @@
+method_name,total_corrupted_bytes,matching_mend_bytes,repair_correctness_ratio
+E0_baseline_autoencoder_fill,260277,7410,0.028469668852799133
+E1_magis_reference_autoencoder_fill,260277,5442,0.02090849364331078
+E2_cleanflight_ancestor_autoencoder_fill,260277,6843,0.02629122050738252
+E3_betaflight_cousin_autoencoder_fill,260277,5291,0.020328342496647802
+no_repair,260277,0,0.0
+oracle_donor,260277,260277,1.0

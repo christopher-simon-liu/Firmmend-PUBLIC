@@ -1,0 +1,8 @@
+{
+  "firmware_name": "uEmu.uTaskerV1.4_USB_STM32429ZI",
+  "chip_part": "STM32F429ZIT6U",
+  "flash_start": 134217728,
+  "flash_size": 2097152,
+  "data_start": 134217728,
+  "data_end": 134255296
+}

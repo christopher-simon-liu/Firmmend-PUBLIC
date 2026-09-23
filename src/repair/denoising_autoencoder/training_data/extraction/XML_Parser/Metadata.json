@@ -1,0 +1,8 @@
+{
+  "firmware_name": "XML_Parser",
+  "chip_part": "STM32L152XE",
+  "flash_start": 134217728,
+  "flash_size": 524288,
+  "data_start": 134217728,
+  "data_end": 134312072
+}

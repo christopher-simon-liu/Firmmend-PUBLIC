@@ -1,0 +1,8 @@
+{
+  "firmware_name": "Console",
+  "chip_part": "MK64FN1M0VLL12",
+  "flash_start": 0,
+  "flash_size": 1048576,
+  "data_start": 0,
+  "data_end": 30716
+}

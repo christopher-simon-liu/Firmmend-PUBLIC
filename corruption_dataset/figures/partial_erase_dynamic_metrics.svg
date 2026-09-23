@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2600" height="1650" viewBox="0 0 2600 1650">
+<rect x="0" y="0" width="2600" height="1650" fill="#ffffff" />
+<rect x="70.0" y="120.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="78.00" y="142.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">Coverage Ratio</text>
+<line x1="188.00" y1="198.00" x2="188.00" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="675.00" x2="1211.00" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="443.75" y1="198.00" x2="443.75" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="555.75" x2="1211.00" y2="555.75" stroke="#ededed" stroke-width="1" />
+<line x1="699.50" y1="198.00" x2="699.50" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="436.50" x2="1211.00" y2="436.50" stroke="#ededed" stroke-width="1" />
+<line x1="955.25" y1="198.00" x2="955.25" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="317.25" x2="1211.00" y2="317.25" stroke="#ededed" stroke-width="1" />
+<line x1="1211.00" y1="198.00" x2="1211.00" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="198.00" x2="1211.00" y2="198.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="198.00" x2="188.00" y2="675.00" stroke="#666666" stroke-width="2" />
+<line x1="188.00" y1="675.00" x2="1211.00" y2="675.00" stroke="#666666" stroke-width="2" />
+<polyline points="188.00,627.17 290.30,198.00 597.20,480.46 1211.00,675.00" fill="none" stroke="#1f77b4" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="627.17" r="4" fill="#1f77b4" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="198.00" r="4" fill="#1f77b4" stroke="#ffffff" stroke-width="1" />
+<circle cx="597.20" cy="480.46" r="4" fill="#1f77b4" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="675.00" r="4" fill="#1f77b4" stroke="#ffffff" stroke-width="1" />
+<text x="188.00" y="731.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="699.50" y="731.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.25</text>
+<text x="1211.00" y="731.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.50</text>
+<text x="166.00" y="681.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.99</text>
+<text x="166.00" y="442.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.03</text>
+<text x="166.00" y="204.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.06</text>
+<text x="699.50" y="785.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+<rect x="1335.0" y="120.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="1343.00" y="142.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">Coverage Retention</text>
+<line x1="1453.00" y1="198.00" x2="1453.00" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="675.00" x2="2476.00" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="1708.75" y1="198.00" x2="1708.75" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="555.75" x2="2476.00" y2="555.75" stroke="#ededed" stroke-width="1" />
+<line x1="1964.50" y1="198.00" x2="1964.50" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="436.50" x2="2476.00" y2="436.50" stroke="#ededed" stroke-width="1" />
+<line x1="2220.25" y1="198.00" x2="2220.25" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="317.25" x2="2476.00" y2="317.25" stroke="#ededed" stroke-width="1" />
+<line x1="2476.00" y1="198.00" x2="2476.00" y2="675.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="198.00" x2="2476.00" y2="198.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="198.00" x2="1453.00" y2="675.00" stroke="#666666" stroke-width="2" />
+<line x1="1453.00" y1="675.00" x2="2476.00" y2="675.00" stroke="#666666" stroke-width="2" />
+<polyline points="1453.00,198.00 1555.30,409.34 1862.20,404.39 2476.00,675.00" fill="none" stroke="#ff7f0e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="198.00" r="4" fill="#ff7f0e" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="409.34" r="4" fill="#ff7f0e" stroke="#ffffff" stroke-width="1" />
+<circle cx="1862.20" cy="404.39" r="4" fill="#ff7f0e" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="675.00" r="4" fill="#ff7f0e" stroke="#ffffff" stroke-width="1" />
+<text x="1453.00" y="731.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="1964.50" y="731.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.25</text>
+<text x="2476.00" y="731.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.50</text>
+<text x="1431.00" y="681.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.96</text>
+<text x="1431.00" y="442.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.98</text>
+<text x="1431.00" y="204.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.00</text>
+<text x="1964.50" y="785.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+<rect x="70.0" y="885.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="78.00" y="907.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">Crash Ratio</text>
+<line x1="188.00" y1="963.00" x2="188.00" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1440.00" x2="1211.00" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="443.75" y1="963.00" x2="443.75" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1320.75" x2="1211.00" y2="1320.75" stroke="#ededed" stroke-width="1" />
+<line x1="699.50" y1="963.00" x2="699.50" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1201.50" x2="1211.00" y2="1201.50" stroke="#ededed" stroke-width="1" />
+<line x1="955.25" y1="963.00" x2="955.25" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="1082.25" x2="1211.00" y2="1082.25" stroke="#ededed" stroke-width="1" />
+<line x1="1211.00" y1="963.00" x2="1211.00" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="963.00" x2="1211.00" y2="963.00" stroke="#ededed" stroke-width="1" />
+<line x1="188.00" y1="963.00" x2="188.00" y2="1440.00" stroke="#666666" stroke-width="2" />
+<line x1="188.00" y1="1440.00" x2="1211.00" y2="1440.00" stroke="#666666" stroke-width="2" />
+<polyline points="188.00,963.00 290.30,1261.13 597.20,1082.25 1211.00,1440.00" fill="none" stroke="#2ca02c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="188.00" cy="963.00" r="4" fill="#2ca02c" stroke="#ffffff" stroke-width="1" />
+<circle cx="290.30" cy="1261.13" r="4" fill="#2ca02c" stroke="#ffffff" stroke-width="1" />
+<circle cx="597.20" cy="1082.25" r="4" fill="#2ca02c" stroke="#ffffff" stroke-width="1" />
+<circle cx="1211.00" cy="1440.00" r="4" fill="#2ca02c" stroke="#ffffff" stroke-width="1" />
+<text x="188.00" y="1496.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="699.50" y="1496.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.25</text>
+<text x="1211.00" y="1496.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.50</text>
+<text x="166.00" y="1446.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.81</text>
+<text x="166.00" y="1207.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.90</text>
+<text x="166.00" y="969.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.00</text>
+<text x="699.50" y="1550.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+<rect x="1335.0" y="885.0" width="1195.0" height="695.0" fill="#ffffff" stroke="#d0d0d0" stroke-width="2" />
+<text x="1343.00" y="907.00" font-family="Arial, sans-serif" font-size="72.00" text-anchor="start" fill="#202020" font-weight="bold">Crash Retention</text>
+<line x1="1453.00" y1="963.00" x2="1453.00" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1440.00" x2="2476.00" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="1708.75" y1="963.00" x2="1708.75" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1320.75" x2="2476.00" y2="1320.75" stroke="#ededed" stroke-width="1" />
+<line x1="1964.50" y1="963.00" x2="1964.50" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1201.50" x2="2476.00" y2="1201.50" stroke="#ededed" stroke-width="1" />
+<line x1="2220.25" y1="963.00" x2="2220.25" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="1082.25" x2="2476.00" y2="1082.25" stroke="#ededed" stroke-width="1" />
+<line x1="2476.00" y1="963.00" x2="2476.00" y2="1440.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="963.00" x2="2476.00" y2="963.00" stroke="#ededed" stroke-width="1" />
+<line x1="1453.00" y1="963.00" x2="1453.00" y2="1440.00" stroke="#666666" stroke-width="2" />
+<line x1="1453.00" y1="1440.00" x2="2476.00" y2="1440.00" stroke="#666666" stroke-width="2" />
+<polyline points="1453.00,963.00 1555.30,1261.13 1862.20,1082.25 2476.00,1440.00" fill="none" stroke="#d62728" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="1453.00" cy="963.00" r="4" fill="#d62728" stroke="#ffffff" stroke-width="1" />
+<circle cx="1555.30" cy="1261.13" r="4" fill="#d62728" stroke="#ffffff" stroke-width="1" />
+<circle cx="1862.20" cy="1082.25" r="4" fill="#d62728" stroke="#ffffff" stroke-width="1" />
+<circle cx="2476.00" cy="1440.00" r="4" fill="#d62728" stroke="#ffffff" stroke-width="1" />
+<text x="1453.00" y="1496.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.00</text>
+<text x="1964.50" y="1496.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.25</text>
+<text x="2476.00" y="1496.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">0.50</text>
+<text x="1431.00" y="1446.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.81</text>
+<text x="1431.00" y="1207.50" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">0.90</text>
+<text x="1431.00" y="969.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="end" fill="#666666" font-weight="normal">1.00</text>
+<text x="1964.50" y="1550.00" font-family="Arial, sans-serif" font-size="66.00" text-anchor="middle" fill="#666666" font-weight="normal">Severity</text>
+</svg>

@@ -1,0 +1,8 @@
+.venv
+.env
+__pycache__/
+ghidra/*
+fuzzware/*
+*_acfg.json
+test/*
+*.zip

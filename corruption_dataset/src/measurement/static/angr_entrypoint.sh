@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+INPUT_FIRMWARE="$1"
+OUTPUT_DIR="$2"
+
+ANGR_PROCESSOR="${ANGR_PROCESSOR:-armcortexm}"
+ANGR_BASE_ADDR="${ANGR_BASE_ADDR:-0x08000000}"
+
+python angr_script_acfg_disasm.py "$INPUT_FIRMWARE" "$OUTPUT_DIR" "$ANGR_PROCESSOR" "$ANGR_BASE_ADDR"
+ls "$OUTPUT_DIR"

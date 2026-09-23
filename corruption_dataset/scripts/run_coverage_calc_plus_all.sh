@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+# run_coverage_calc_plus_all.sh — recursively discover run_# folders and
+# invoke run_coverage_calc_plus.sh for each to augment existing coverage results.
+#
+# Usage:
+#   ./scripts/run_coverage_calc_plus_all.sh <input_root> <output_root>
+#
+# Expects run_coverage_calc.sh to have already generated *_fuzzware_blocks.txt
+# in each run_# output directory.
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+RUN_ONE="$SCRIPT_DIR/run_coverage_calc_plus.sh"
+
+if [[ $# -lt 2 || "${1:-}" == "-h" || "${1:-}" == "--help" ]]; then
+	echo "Usage: $0 <input_root> <output_root>"
+	echo
+	echo "Recursively finds run_# folders and augments coverage results"
+	echo "with coverage_ratio and coverage_retention fields using severity-0.0"
+	echo "fuzzware_blocks baseline artifacts."
+	exit 0
+fi
+
+INPUT_ROOT="$1"
+OUTPUT_ROOT="$2"
+
+if [[ ! -d "$INPUT_ROOT" ]]; then
+	echo "Error: Input root does not exist: $INPUT_ROOT"
+	exit 1
+fi
+
+mkdir -p "$OUTPUT_ROOT"
+
+RUN_DIRS=()
+for candidate in "$INPUT_ROOT"/run_*; do
+	if [[ -d "$candidate" ]]; then
+		base_name="$(basename "$candidate")"
+		if [[ "$base_name" =~ ^run_[0-9]+$ ]]; then
+			RUN_DIRS+=("$candidate")
+		fi
+	fi
+done
+
+IFS=$'\n' RUN_DIRS=($(printf "%s\n" "${RUN_DIRS[@]}" | sort))
+TOTAL_RUNS="${#RUN_DIRS[@]}"
+
+if [[ "$TOTAL_RUNS" -eq 0 ]]; then
+	echo "No run_# folders found under: $INPUT_ROOT"
+	exit 0
+fi
+
+echo "Input root:  $INPUT_ROOT"
+echo "Output root: $OUTPUT_ROOT"
+echo "Found $TOTAL_RUNS run folders"
+
+CURRENT=0
+for RUN_DIR in "${RUN_DIRS[@]}"; do
+	CURRENT=$((CURRENT + 1))
+	echo "[$CURRENT/$TOTAL_RUNS] Processing: $RUN_DIR"
+	"$RUN_ONE" "$RUN_DIR" "$OUTPUT_ROOT"
+done
+
+echo "Completed coverage augmentation for $TOTAL_RUNS run folders."
