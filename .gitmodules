@@ -1,3 +1,0 @@
-[submodule "firmcorr"]
-	path = firmcorr
-	url = https://github.com/battelle-software/firmcorr.git

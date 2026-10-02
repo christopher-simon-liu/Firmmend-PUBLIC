@@ -1,5 +1,5 @@
 # FirmMend
-Restoring Corrupted Firmware
+Repairing Corrupted Firmware
 
 This project analyzes, repairs, and evaluates corrupted firmware binaries. The workflow is:
 
@@ -411,11 +411,11 @@ Aggregate the AUC comparison output:
 
 ```bash
 scripts/eval/static/create_figures_auc.sh figures/auc_compare \
-  figures/nop_fill/compare/static_results_auc_compare.csv \
   figures/zero_fill/compare/static_results_auc_compare.csv \
+  figures/nop_fill/compare/static_results_auc_compare.csv \
   figures/local_fill/compare/static_results_auc_compare.csv \
   figures/autoencoder_fill/compare/static_results_auc_compare.csv \
-  --labels "NOP Fill" "Zero Fill" "Local Fill" "Autoencoder Fill"
+  --labels "Zero Fill" "NOP Fill" "Local Fill" "Autoencoder Fill"
 ```
 
 ## Repository Layout

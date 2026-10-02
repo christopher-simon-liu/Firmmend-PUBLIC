@@ -15,6 +15,14 @@ from matplotlib.ticker import FuncFormatter
 CASE_PATTERN = re.compile(r"^(?P<mode>.+)_(?P<severity>\d+(?:\.\d+)?)_(?P<variant>[^/]+)$")
 EXPERIMENT_PATTERN = re.compile(r"^E\d+_.+")
 REPO_ROOT = Path(__file__).resolve().parents[2]
+CORRUPTION_MODE_ORDER = ("bit_flip", "partial_dump", "partial_write", "partial_erase", "address_bit_freeze")
+REPAIR_METHOD_ORDER = ("zero_fill", "nop_fill", "local_fill", "autoencoder_fill")
+REPAIR_METHOD_LABELS = {
+	"zero_fill": "Zero Fill",
+	"nop_fill": "NOP Fill",
+	"local_fill": "Local Fill",
+	"autoencoder_fill": "Autoencoder Fill",
+}
 
 plt.rcParams.update(
 	{
@@ -229,13 +237,14 @@ def overall_by_method(records):
 
 
 def create_overall_figure(overall, output_folder: Path):
+	overall = [row for row in overall if row["method_name"] != "oracle_donor"]
 	methods = [row["method_name"] for row in overall]
 	ratios = [row["repair_correctness_ratio"] for row in overall]
 
 	figure, axis = plt.subplots(figsize=(max(7, len(methods) * 1.25), 5))
 	axis.bar(methods, ratios, color="#1f77b4")
 	axis.set_ylim(0, 1)
-	axis.set_ylabel("Repair correctness ratio")
+	axis.set_ylabel("Repair Correctness")
 	axis.set_title("Overall Repair Correctness by Technique")
 	axis.tick_params(axis="x", rotation=30)
 	figure.tight_layout()
@@ -245,8 +254,9 @@ def create_overall_figure(overall, output_folder: Path):
 
 
 def create_mode_overall_figure(averages, output_folder: Path):
-	modes = sorted({row["corruption_mode"] for row in averages})
-	methods = sorted({row["method_name"] for row in averages})
+	averages = [row for row in averages if row["method_name"] in REPAIR_METHOD_ORDER]
+	modes = [mode for mode in CORRUPTION_MODE_ORDER if any(row["corruption_mode"] == mode for row in averages)]
+	methods = [method for method in REPAIR_METHOD_ORDER if any(row["method_name"] == method for row in averages)]
 	ratio_by_method_mode = {
 		(row["method_name"], row["corruption_mode"]): row["average_repair_correctness_ratio"]
 		for row in averages
@@ -261,11 +271,11 @@ def create_mode_overall_figure(averages, output_folder: Path):
 			[position + offset for position in positions],
 			[ratio_by_method_mode.get((method, mode), 0) for mode in modes],
 			width=bar_width,
-			label=method,
+			label=REPAIR_METHOD_LABELS[method],
 		)
 	axis.set_xticks(
 		list(positions),
-		[mode.replace("_", " ") for mode in modes],
+		[mode.replace("_", " ").title() for mode in modes],
 		rotation=20,
 		ha="right",
 		rotation_mode="anchor",
@@ -318,6 +328,7 @@ def _plot_severity(axis, aggregates, mode, methods, colors, markers):
 
 
 def create_severity_figure(aggregates, output_folder: Path):
+	aggregates = [row for row in aggregates if row["method_name"] != "oracle_donor"]
 	modes = sorted({row["corruption_mode"] for row in aggregates})
 	methods = sorted({row["method_name"] for row in aggregates})
 	colors = dict(zip(methods, plt.get_cmap("tab10").colors))

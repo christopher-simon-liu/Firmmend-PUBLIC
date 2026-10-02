@@ -169,7 +169,7 @@ def _draw_subplot(method_rows, labels, title, metric, box, text_scale):
 	parts.append(f'<line x1="{plot_left:.2f}" y1="{plot_top:.2f}" x2="{plot_left:.2f}" y2="{plot_bottom:.2f}" stroke="#666666" stroke-width="2" />')
 	parts.append(f'<line x1="{plot_left:.2f}" y1="{plot_bottom:.2f}" x2="{plot_right:.2f}" y2="{plot_bottom:.2f}" stroke="#666666" stroke-width="2" />')
 
-	for points, color in zip(series, METHOD_COLORS):
+	for points, color in zip(series, METHOD_COLORS[1:]):
 		if len(points) > 1:
 			polyline = " ".join(f"{map_x(severity):.2f},{map_y(value):.2f}" for severity, value in points)
 			parts.append(f'<polyline points="{polyline}" fill="none" stroke="{color}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />')
@@ -177,7 +177,7 @@ def _draw_subplot(method_rows, labels, title, metric, box, text_scale):
 			parts.append(f'<circle cx="{map_x(severity):.2f}" cy="{map_y(value):.2f}" r="4" fill="{color}" stroke="#ffffff" stroke-width="1" />')
 
 	legend_x, legend_y = plot_right - 400, plot_top + 24
-	for index, (label, color) in enumerate(zip(labels, METHOD_COLORS)):
+	for index, (label, color) in enumerate(zip(labels, METHOD_COLORS[1:])):
 		y = legend_y + index * max(42.0, 30.0 * text_scale)
 		parts.append(f'<line x1="{legend_x:.2f}" y1="{y:.2f}" x2="{legend_x + 28:.2f}" y2="{y:.2f}" stroke="{color}" stroke-width="3" />')
 		parts.append(_svg_text(legend_x + 40, y + 8, label, size=18, fill="#555555", text_scale=text_scale))
@@ -259,9 +259,11 @@ def main():
 	modes = sorted(set().union(*(grouped.keys() for grouped in grouped_methods)) - {""}, key=lambda mode: (MODE_ORDER.get(mode, 99), mode))
 	args.output_dir.mkdir(parents=True, exist_ok=True)
 	_write_auc_csv(grouped_methods, labels[2], modes, args.output_dir)
+	plot_methods = grouped_methods[1:]
+	plot_labels = labels[1:]
 	for mode in modes:
 		for tool in ("ghidra", "angr"):
-			_plot_mode(tool, mode, grouped_methods, labels, args.output_dir, args.pdf_width_in, args.pdf_height_in, args.text_scale)
+			_plot_mode(tool, mode, plot_methods, plot_labels, args.output_dir, args.pdf_width_in, args.pdf_height_in, args.text_scale)
 
 
 if __name__ == "__main__":

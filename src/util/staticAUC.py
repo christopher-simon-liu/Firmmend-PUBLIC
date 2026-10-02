@@ -13,8 +13,8 @@ logger = logging.getLogger(__name__)
 MODE_ORDER = {
 	"bit_flip": 0,
 	"partial_dump": 1,
-	"partial_erase": 2,
-	"partial_write": 3,
+	"partial_write": 2,
+	"partial_erase": 3,
 	"address_bit_freeze": 4,
 }
 DEFAULT_PDF_WIDTH_IN = 7.25
@@ -164,14 +164,12 @@ def _plot_metric(metric, method_rows, output_dir, pdf_width_in, pdf_height_in, t
 		plt.Rectangle((0, 0), 1, 1, facecolor="none", hatch=TOOL_HATCHES.get(tool, ""), edgecolor="#333333", linewidth=FRONT_BAR_LINEWIDTH if index else 0.4)
 		for index, tool in enumerate(tools)
 	]
-	oracle_handle = plt.Line2D([0], [0], color="#d62728", linewidth=1.0, linestyle="--")
 	no_repair_handle = plt.Line2D([0], [0], color=NO_REPAIR_COLOR, linewidth=1.8)
 
-	axis.axhline(1.0, color="#d62728", linewidth=1.0, linestyle="--", zorder=1)
 	font_scale = text_scale / BASE_TEXT_SCALE
 	tick_fontsize = 8 * font_scale
 	axis.set_xticks(positions, [_display_name(mode) for mode in modes], rotation=20, ha="right", rotation_mode="anchor", fontsize=tick_fontsize)
-	axis.set_ylabel("Repair AUC / Oracle Donor AUC", fontsize=9 * font_scale)
+	axis.set_ylabel("Functionality AUC", fontsize=9 * font_scale)
 	axis.set_title(metric, fontsize=9 * font_scale)
 	axis.set_ylim(bottom=0, top=max(1.05, axis.get_ylim()[1] * 1.05))
 	axis.grid(axis="y", color="#d9d9d9", linewidth=0.7)
@@ -192,10 +190,10 @@ def _plot_metric(metric, method_rows, output_dir, pdf_width_in, pdf_height_in, t
 	axis.add_artist(method_legend)
 	method_block_in = LEGEND_TOP_GAP_IN + method_rows_count * LEGEND_ROW_HEIGHT_IN + 0.25
 	axis.legend(
-		tool_handles + [no_repair_handle, oracle_handle],
-		[_display_name(tool) for tool in tools] + ["No repair", "Oracle donor"],
+		tool_handles + [no_repair_handle],
+		[_display_name(tool) for tool in tools] + ["No repair"],
 		frameon=False,
-		ncols=len(tools) + 2,
+		ncols=len(tools) + 1,
 		fontsize=legend_fontsize,
 		loc="upper center",
 		bbox_to_anchor=(0.5, -method_block_in / base_height),
